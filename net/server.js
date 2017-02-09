@@ -2,6 +2,7 @@
 const net = require('net');
 
 const _PORT = 9009;
+const a = 9;
 
 let server = net.createServer(function (socket) {
   socket.write('Ada\'s Server');
